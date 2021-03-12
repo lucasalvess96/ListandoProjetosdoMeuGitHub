@@ -21,11 +21,11 @@ function ShowListGitHub(){
     return(
         <>
             <h1>Listando Projetos do github</h1>
-            <ul>
+            <ol>
                 {repositories.map(showList => (
                     <li  value={showList}>{showList}</li>
                 ))}
-            </ul>
+            </ol>
         </>
     )
 }
